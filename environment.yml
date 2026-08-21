@@ -1,0 +1,16 @@
+name: saint-george
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pillow
+  - pyyaml
+  - scikit-learn
+  - tqdm
+  - pip:
+      - torch
+

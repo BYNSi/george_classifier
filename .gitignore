@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Local dataset
+data/
+
+# Generated training outputs
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# Logs and local files
+*.log
+.env
+.DS_Store
+
